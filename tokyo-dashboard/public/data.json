@@ -1,0 +1,13 @@
+{
+  "sightseeing": [
+    { "id": 1, "name": "Senso-ji Temple", "visited": false },
+    { "id": 2, "name": "Tokyo Skytree", "visited": false },
+    { "id": 3, "name": "Meiji Jingu Shrine", "visited": true },
+    { "id": 4, "name": "Shibuya Crossing", "visited": false }
+  ],
+  "expenses": [
+    { "id": 1, "description": "Train ticket", "amount": 1000 },
+    { "id": 2, "description": "Lunch at Ichiran", "amount": 1500 }
+  ],
+  "notes": ""
+}

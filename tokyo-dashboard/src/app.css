@@ -1,0 +1,161 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #7aa2f7;
+  text-shadow: 0 0 5px #7aa2f7;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+section {
+  background-color: #24283b;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #ff9e64;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #7aa2f7;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ff9e64;
+  padding-bottom: 0.5rem;
+}
+
+.add-item {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  background-color: #1a1b26;
+  border: 1px solid #7aa2f7;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  color: #c0caf5;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #7aa2f7;
+  color: #1a1b26;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #a9b1d6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #2e334f;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+li.visited label {
+  text-decoration: line-through;
+  color: #545c7e;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+button.delete {
+  background: none;
+  border: none;
+  color: #f7768e;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+
+.expenses li {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.expenses .total {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ff9e64;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  background-color: #1a1b26;
+  border: 1px solid #7aa2f7;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  color: #c0caf5;
+  font-size: 1rem;
+  width: 120px; /* Adjust width as needed */
+}
+
+textarea {
+  width: 100%;
+  min-height: 150px;
+  background-color: #1a1b26;
+  border: 1px solid #7aa2f7;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #c0caf5;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  resize: vertical;
+}
+
+.data-management {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
